@@ -10,6 +10,11 @@ function clearResult() {
 
 }
 
+
+function deLast() {
+result.value=result.value.slice(0,-1)
+}
+
   function calculate() {
             var result = document.getElementById("result");
             try {
